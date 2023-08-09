@@ -1,0 +1,258 @@
+/*font-family: 'Montserrat', sans-serif;*/
+
+body, h1, h2, h4, h4 p, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    overflow-x: hidden;
+}
+
+.aside {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+}
+
+@media screen, (min-width: 320px) {
+    .aside {
+        width: 27vw;
+    }
+}
+
+@media screen, (min-width: 640px) {
+    .aside {
+        width: 600px;
+    }
+}
+
+.vk-link {
+    background: -webkit-linear-gradient(180deg, #EC4040, #FF8B8B, #DD1717, #FF7575);
+}
+
+.vk-link:visited {
+    color: white;
+}
+
+.aside-logo {
+    width: 75%;
+}
+
+.aside-info {
+    padding: 0 10px;
+}
+
+.aside-info h1 {
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 38px;
+}
+
+.aside-info p {
+    margin-block: 20px;
+}
+
+.aside-nav {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.aside-nav-title {
+    font-size: 18px;
+}
+
+.aside-nav-ul {
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.aside-nav-ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: cornflowerblue;
+    margin-bottom: 5px;
+}
+
+.aside-nav-ul li a:visited {
+    color: cornflowerblue;
+}
+
+.list-dash {
+    width: 15px;
+    height: 0.5px;
+    background-color: #5e9dff;
+    margin-left: 10px;
+    margin-right: 3px;
+}
+
+.page-nav {
+    display: flex;
+    gap: 0 10px;
+    padding: 0;
+}
+
+.page-nav li {
+    color: #A8A8A8;
+    list-style: none;
+}
+
+.top-form {
+    min-width: 260px;
+    padding: 0 10px;
+}
+
+.top-form h2 {
+    font-size: 20px;
+}
+
+.top-form-input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+    padding: 0 10px;
+    width: calc(100% - 25px);
+    margin-top: 20px;
+}
+
+.top-form-button {
+    width: calc(100% - 4px);
+    color: white;
+    background-color: #5252ff;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.main {
+    padding: 20px;
+    width: 100%;
+}
+
+.main-title {
+    font-weight: 600;
+    font-size: 38px;
+    margin-top: 35px;
+    background: -webkit-linear-gradient(45deg, #EC4040, #FF8B8B, #DD1717, #FF7575);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-description {
+    margin-block: 10px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    gap: 20px 0;
+}
+
+.card {
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid grey;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.icons-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info-container {
+    max-width: 100%;
+    overflow: hidden;
+    height: 120px;
+    padding-block: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-container h3 {
+    margin-top: 0;
+    word-break: break-all;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 20px;
+}
+
+.img-icon {
+    width: 20px;
+}
+
+.card-weight {
+    color: #4b4b4b;
+}
+
+
+.arrow-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(180deg, #EC4040, #FF8B8B, #DD1717, #FF7575);
+    right: 3%;
+    bottom: 5%;
+    position: fixed;
+    z-index: 50;
+}
+
+
+.arrow-button img {
+    width: 40%;
+}
+
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    max-height: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-title {
+    flex: 1;
+    font-weight: 500;
+    font-size: 24px;
+    background: -webkit-linear-gradient(45deg, #EC4040, #FF8B8B, #DD1717, #FF7575);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.footer-nav a {
+    color: #141414;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.footer-nav {
+    display: flex;
+    gap: 30px;
+    flex: 2;
+    justify-content: space-evenly;
+}
